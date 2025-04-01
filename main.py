@@ -347,7 +347,7 @@ class DataCollector():                                                  # 데이
                 self.cam_collector = Camera_Collector(self.cam, self.cam_db)
             
             self.cnc_process = subprocess.Popen(
-                ["C:/Users/KAMIC/AppData/Local/Programs/Python/Python36-32/python.exe", './Monitoring/Sensors/CNC.py'],  # 32bit Python 경로 명시
+                ["C:/Users/user/AppData/Local/Programs/Python/Python36-32/python.exe", './Monitoring/Sensors/CNC.py'],  # 32bit Python 경로 명시
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
